@@ -6,7 +6,6 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.After;
 import org.junit.Assert;
-import org.junit.Before;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -23,7 +22,7 @@ public class FeaturedBrand {
         System.setProperty("webdriver.chrome.driver", "C://Users//folkl//Desktop//java//chromedriver_win32//chromedriver.exe");
         driver = new ChromeDriver();
         driver.get("https://www.amazon.com/");
-        }
+    }
 
     @When("user chooses category")
     public void user_chooses_category() {
@@ -56,3 +55,4 @@ public class FeaturedBrand {
         driver.quit();
     }
 }
+

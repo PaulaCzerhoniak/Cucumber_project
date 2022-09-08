@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="21949f96-c998-430e-94a5-ff76070a28be" name="Changes" comment="Logo and Searching by Brand tests">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="21949f96-c998-430e-94a5-ff76070a28be" name="Changes" comment="BeforeAfterTest bonigarcia modification">
       <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/AmazonLogo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/AmazonLogo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/BeforeAfterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/BeforeAfterTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/FeaturedBrand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/FeaturedBrand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/LogoTest.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/LogoTest.feature" afterDir="false" />
     </list>
@@ -174,7 +171,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662651397656</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="BeforeAfterTest bonigarcia modification">
+      <created>1662665489643</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1662665489643</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -190,6 +194,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Logo and Searching by Brand tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="Logo and Searching by Brand tests" />
+    <MESSAGE value="BeforeAfterTest bonigarcia modification" />
+    <option name="LAST_COMMIT_MESSAGE" value="BeforeAfterTest bonigarcia modification" />
   </component>
 </project>
