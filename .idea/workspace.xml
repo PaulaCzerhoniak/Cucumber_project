@@ -4,15 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="21949f96-c998-430e-94a5-ff76070a28be" name="Changes" comment="">
+    <list default="true" id="21949f96-c998-430e-94a5-ff76070a28be" name="Changes" comment="Logo and Searching by Brand tests">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/AmazonLogo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/AmazonLogo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/BeforeAfterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/BeforeAfterTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/FeaturedBrand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/FeaturedBrand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testRunner/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testRunner/TestRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/LogoTest.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/LogoTest.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/SearchingByBrand.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/SearchingByBrand.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +44,7 @@
     "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/folkl/Desktop/Cucumber_project",
+    "last_opened_file_path": "C:/Users/folkl/Desktop/java",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -58,7 +56,25 @@
       <recent name="C:\Users\folkl\Desktop\EPAM\Automation testing module\Cucumber_project\src\test\resources\driver" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Feature: LogoTest">
+  <component name="RunManager" selected="Cucumber Java.Feature: SearchingByBrand">
+    <configuration name="Feature: AddItemToCart" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/AddItemToCart.feature" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="Cucumber_project" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: AddItemToCart" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Feature: LogoTest" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/LogoTest.feature" />
@@ -97,34 +113,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Logo presence on Amazon HomePage" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: The selected product is added to the Amazon cart" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/LogoTest.feature" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="Cucumber_project" />
-      <option name="NAME_FILTER" value="^Logo presence on Amazon HomePage$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Logo presence on Amazon HomePage$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Logo presence on Amazon HomePage" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Scenario: The displayed products have the selected brand" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/SearchingByBrand.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/AddItemToCart.feature" />
       <option name="GLUE" value="stepDefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="Cucumber_project" />
-      <option name="NAME_FILTER" value="^The displayed products have the selected brand$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^The displayed products have the selected brand$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: The displayed products have the selected brand" />
+      <option name="NAME_FILTER" value="^The selected product is added to the Amazon cart$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^The selected product is added to the Amazon cart$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: The selected product is added to the Amazon cart" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -136,16 +133,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BeforeAfterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Cucumber_project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="testRunner.*" />
+          <option name="PATTERN" value="stepDefinitions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="testRunner" />
-      <option name="MAIN_CLASS_NAME" value="testRunner.TestRunner" />
+      <option name="PACKAGE_NAME" value="stepDefinitions" />
+      <option name="MAIN_CLASS_NAME" value="stepDefinitions.BeforeAfterTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -153,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Feature: LogoTest" />
         <item itemvalue="Cucumber Java.Feature: SearchingByBrand" />
-        <item itemvalue="Cucumber Java.Scenario: The displayed products have the selected brand" />
-        <item itemvalue="JUnit.TestRunner" />
-        <item itemvalue="Cucumber Java.Scenario: Logo presence on Amazon HomePage" />
+        <item itemvalue="Cucumber Java.Feature: LogoTest" />
+        <item itemvalue="Cucumber Java.Scenario: The selected product is added to the Amazon cart" />
+        <item itemvalue="Cucumber Java.Feature: AddItemToCart" />
+        <item itemvalue="JUnit.BeforeAfterTest" />
       </list>
     </recent_temporary>
   </component>
@@ -170,6 +167,14 @@
       <option name="presentableId" value="Default" />
       <updated>1662477038046</updated>
     </task>
+    <task id="LOCAL-00001" summary="Logo and Searching by Brand tests">
+      <created>1662651397656</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1662651397656</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -182,5 +187,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Logo and Searching by Brand tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Logo and Searching by Brand tests" />
   </component>
 </project>

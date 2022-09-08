@@ -1,24 +1,42 @@
 package stepDefinitions;
 
+import static org.assertj.core.api.Assertions.assertThat;
+
+import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.annotations.AfterSuite;
-import org.testng.annotations.BeforeSuite;
 
-public class BeforeAfterTest {
-    public WebDriver driver;
+import io.github.bonigarcia.wdm.WebDriverManager;
 
-    @BeforeSuite
-    public void init() {
-        System.setProperty("webdriver.chrome.driver", "C://Users//folkl//Desktop//java//chromedriver_win32//chromedriver.exe");
-        driver = new ChromeDriver();
+class BeforeAfterTest {
 
-        driver.get("https://www.amazon.com/");
-        driver.manage().window().maximize();
+    WebDriver driver;
+
+    @BeforeAll
+    static void setupClass() {
+        WebDriverManager.chromedriver().setup();
     }
 
-    @AfterSuite
-    public void close() {
-        driver.close();
+    @BeforeEach
+    void setupTest() {
+        driver = new ChromeDriver();
+    }
+
+    @AfterEach
+    void teardown() {
+        driver.quit();
+    }
+
+    @Test
+    void test() {
+        // Exercise
+        driver.get("https://bonigarcia.dev/selenium-webdriver-java/");
+        String title = driver.getTitle();
+
+        // Verify
+        assertThat(title).contains("Selenium WebDriver");
     }
 }
